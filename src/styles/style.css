@@ -1,3 +1,26 @@
 body {
+    margin: 0rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*header*/
+
+header {
+    background-color: black;
+    color: azure;
+    margin: 0rem;
+}
+
+header a {
+    color: azure;
+    text-decoration: none;
+}
+
+header nav ul a {
+    color: azure;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
 }
