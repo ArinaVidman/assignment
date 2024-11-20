@@ -12,13 +12,13 @@ header {
     display: flex;
     flex-direction: row;
     padding: 0 2rem;
-
+    align-items: center;
+    justify-content: space-between;
 }
 
-header a {
-    color: azure;
-    text-decoration: none;
-    font-style: upperscale;
+header img {
+    width: 300px;
+    height: auto;
 }
 
 header nav ul a {
