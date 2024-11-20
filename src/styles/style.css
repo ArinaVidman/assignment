@@ -9,11 +9,16 @@ header {
     background-color: black;
     color: azure;
     margin: 0rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+
 }
 
 header a {
     color: azure;
     text-decoration: none;
+    font-style: upperscale;
 }
 
 header nav ul a {
