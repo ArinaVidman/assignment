@@ -195,6 +195,12 @@ main article span {
     grid-area: posts;
 }
 
+/*main playlist*/ 
+
+.playlist {
+    display: flex;
+}
+
 /*footer*/
 
 footer {
