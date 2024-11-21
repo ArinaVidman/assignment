@@ -1,1 +1,1 @@
-let playlist = ["Lose yourself", "Mockingbird", "Berzerk"]
+let playlist = ["Lose yourself", "Mockingbird", "Berzerk"];
