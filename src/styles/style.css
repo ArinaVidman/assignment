@@ -155,6 +155,22 @@ main article span {
 }
 
 /*main news*/ 
+.news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.newstext {
+    grid-area: text;
+}
+
+.cities {
+    grid-area: cities;
+}
+
+.posts {
+    grid-area: posts;
+}
 
 /*footer*/
 
