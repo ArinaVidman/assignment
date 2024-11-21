@@ -158,6 +158,12 @@ main article span {
 .news {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "text cities"
+    "posts posts";
+    justify-content: center;
+    max-width: 50vw;
+    grid-column-gap: 3rem;
 }
 
 .newstext {
@@ -166,6 +172,23 @@ main article span {
 
 .cities {
     grid-area: cities;
+    border: solid 2px #cff61f;
+    background-color: black;
+    padding: 0;
+    margin: 1rem;
+}
+
+.cities h3 {
+    color: #cff61f;
+    margin: 1rem;
+    padding: 0%;
+}
+
+.cities ul {
+    background-color: white;
+    margin: 1rem 0 0 0;
+    padding: 1rem 2.5rem;
+    border-top: solid 2px #cff61f;
 }
 
 .posts {
