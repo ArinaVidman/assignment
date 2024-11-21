@@ -30,7 +30,9 @@ header nav ul a {
 }
 
 header nav ul a:hover {
-color:#f61f1f;
+color:#cff61f;
+border: solid 1px #cff61f;
+padding: 0.5rem;
 }
 
 header nav ul {
@@ -39,16 +41,5 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 1rem;
-}
-
-.branding {
-    line-height: 16px;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 0 0 0;
-}
-
-.branding h3 {
-    font-weight: 200;
+    margin: 2rem;
 }
