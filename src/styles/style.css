@@ -92,6 +92,17 @@ main article span {
     width: 50vw;
 }
 
+.lifestory {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lifestory img {
+    grid-column: 1/2;
+}
+
+.lifestory 
+
 /*footer*/
 
 footer {
