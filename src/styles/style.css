@@ -88,4 +88,13 @@ main article span {
 
 footer {
     text-align: center;
+    align-items: center;
+    
+}
+
+footer p {
+    border: solid 1px #cff61f;
+    padding: 1rem;
+    width: 25vw;
+    text-align: center;
 }
