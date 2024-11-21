@@ -7,6 +7,7 @@ body {
 
 header {
     background-color: black;
+    border: solid 2px #cff61f;
     color: azure;
     margin: 0rem;
     display: flex;
@@ -99,9 +100,19 @@ main article span {
 
 .lifestory img {
     grid-column: 1/2;
+    width: 400px;
+    height: auto;
 }
 
-.lifestory 
+.infolife {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+    text-align: left;
+    line-height: 16px;
+    align-self: flex-end;
+    margin: 1rem 0;
+}
 
 /*footer*/
 
