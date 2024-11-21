@@ -114,6 +114,45 @@ main article span {
     margin: 1rem 0;
 }
 
+.infolife h3 {
+    color: #cff61f;
+    background-color: black;
+    padding: 0.5rem;
+    border: solid 2px #cff61f;
+}
+
+.albums h3 {
+    color: #cff61f;
+    background-color: black;
+    padding: 0.5rem;
+    border: solid 2px #cff61f;
+}
+
+.awards h3 {
+    color: #cff61f;
+    background-color: black;
+    padding: 0.5rem;
+    border: solid 2px #cff61f;
+}
+
+.critics h3 {
+    color: #cff61f;
+    background-color: black;
+    padding: 0.5rem;
+    border: solid 2px #cff61f;
+}
+
+.critics blockquote {
+    font-style: italic;
+}
+
+.legacy h3 {
+    color: #cff61f;
+    background-color: black;
+    padding: 0.5rem;
+    border: solid 2px #cff61f;
+}
+
 /*footer*/
 
 footer {
