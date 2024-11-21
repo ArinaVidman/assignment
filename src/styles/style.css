@@ -88,8 +88,6 @@ main article span {
 
 footer {
     text-align: center;
-    align-items: center;
-    
 }
 
 footer p {
@@ -97,4 +95,5 @@ footer p {
     padding: 1rem;
     width: 25vw;
     text-align: center;
+    margin: 0 auto;
 }
