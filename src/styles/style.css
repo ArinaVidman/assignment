@@ -199,6 +199,9 @@ main article span {
 
 .playlist {
     display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    align-items: center;
 }
 
 /*footer*/
