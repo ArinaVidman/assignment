@@ -91,6 +91,7 @@ main article span {
     display:flex;
     flex-direction: column;
     width: 50vw;
+    margin-bottom: 2rem;
 }
 
 .lifestory {
@@ -153,10 +154,13 @@ main article span {
     border: solid 2px #cff61f;
 }
 
+/*main info*/ 
+
 /*footer*/
 
 footer {
     text-align: center;
+    margin: 2rem;
 }
 
 footer p {
