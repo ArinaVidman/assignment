@@ -34,8 +34,8 @@ header nav ul a {
 }
 
 header nav ul a:hover {
-color:#cff61f;
-border: solid 1px #cff61f;
+color: black;
+background-color: #cff61f;
 padding: 0.5rem;
 }
 
@@ -82,4 +82,10 @@ main article h3 {
 main article span {
     font-style: italic;
     font-weight: 700;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
 }
