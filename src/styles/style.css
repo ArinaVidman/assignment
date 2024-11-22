@@ -197,9 +197,13 @@ main article span {
 
 .postgallery {
     display: flex;
-    width: 50vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     text-align: center;
+    height: 70vh;
+    gap:20px;
 }
 
 .postgallery li p {
@@ -216,7 +220,6 @@ main article span {
 
 .postgallery li {
     border: solid 2px #cff61f;
-    margin: 1rem;
     background-color: black;
     padding: 2rem;
 }
