@@ -1,2 +1,3 @@
-let playlist = ['Lose Yourself', 'Mockingbird', 'My Name Is', 'Berzerk', 'Without Me'];
-console.log(playlist);
+let playlist = ['Lose Yourself', 'Mockingbird', 'My Name Is', 'Berzerk'];
+
+function updatePlaylistList 
