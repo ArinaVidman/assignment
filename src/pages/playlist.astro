@@ -12,7 +12,7 @@ import '../styles/style.css'
 	</head>
 	<body>
 		<header>
-                <a href="/"><img src="/public/logo.png"></a>
+                <a href="/"><img src="/logo.png"></a>
                 
 			<nav>
 				<ul>
@@ -35,18 +35,22 @@ import '../styles/style.css'
 			<li>Lose Yourself</li>
 		</ul>
 		<p>What song do you want to add?</p>
-		<form onsubmit="showAlert(event)">
+		<form>
 			<label for="name">Song:</label>
 			<input type="text" id="name" placeholder="Enter your song here">
-			<button type="submit">Submit</button>
+			<button id="submit" type="submit">Submit</button>
 		</form>
-		<script>
-			function showAlert(event) {
+		<!-- <script>
+
+		function showAlert(event) {
 				event.preventDefault();
 				const name = document.getElementById('name').value;
-				alert('Your song'+ name + 'added to the playlist');
+				alert('Your тsong ' + name + ' added to the playlist');
 			}
-		</script>
+		</script>-->
+			<br> 
+            <button id="shuffleButton">Shuffle List</button>
+	
 	</main>
 
 	<footer>
